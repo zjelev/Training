@@ -1,6 +1,6 @@
-﻿namespace BlazorServerApp;
+﻿namespace BlazorServerApp.Data;
 
-public class TodoItem
+public class Todo
 {
     public string? Title { get; set; }
     public bool IsDone { get; set; } = false;

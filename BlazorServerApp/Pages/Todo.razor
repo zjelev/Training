@@ -18,14 +18,14 @@
 <a href="https://learn.microsoft.com/api/achievements/share/bg-bg/ZlatomirZhelev-4371/YV5ELALR?sharingId=9EFC97823DDFE636">2nd achievment</a>
 
 @code {
-    private List<TodoItem> todos = new();
+    private List<Data.Todo> todos = new();
     private string? newTodo;
     
     private void AddTodo()
     {
         if (!string.IsNullOrWhiteSpace(newTodo))
         {
-            todos.Add(new TodoItem { Title = newTodo });
+            todos.Add(new Data.Todo { Title = newTodo });
             newTodo = string.Empty;
         }
     }
