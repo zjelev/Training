@@ -363,3 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 /BlazorServerApp/wwwroot/css/bootstrap
 /BlazorServerApp/wwwroot/css/open-iconic
+/BlazorApp/wwwroot/bootstrap/css
