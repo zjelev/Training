@@ -363,4 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 */wwwroot/css/bootstrap
 */wwwroot/css/open-iconic
-*/wwwroot/bootstrap/css
+**/wwwroot/bootstrap/css
