@@ -361,6 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/BlazorServerApp/wwwroot/css/bootstrap
-/BlazorServerApp/wwwroot/css/open-iconic
-/BlazorApp/wwwroot/bootstrap/css
+*/wwwroot/css/bootstrap
+*/wwwroot/css/open-iconic
+*/wwwroot/bootstrap/css
