@@ -1,3 +1,4 @@
+using BlazorWasm.Client.Components;
 using BlazorWasm.Components;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +19,7 @@ app.UseStaticFiles();
 app.UseAntiforgery();
 
 app.MapRazorComponents<App>()
-    .AddInteractiveServerRenderMode();
+    .AddInteractiveServerRenderMode()
+    .AddAdditionalAssemblies(typeof(DisplayTime).Assembly);
 
 app.Run();
