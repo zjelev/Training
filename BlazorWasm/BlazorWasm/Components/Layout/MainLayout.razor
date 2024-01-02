@@ -1,4 +1,5 @@
-﻿@inherits LayoutComponentBase
+﻿@inject IHttpContextAccessor HttpContextAccessor
+@inherits LayoutComponentBase
 
 <div class="page">
     <div class="sidebar">
@@ -7,6 +8,7 @@
 
     <main>
         <div class="top-row px-4">
+            <a href="Account/Manage">@HttpContextAccessor.HttpContext.User.Identity?.Name</a>
             <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
         </div>
 
