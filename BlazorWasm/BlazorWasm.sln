@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasm", "BlazorWasm\BlazorWasm.csproj", "{04921494-A450-4441-91BC-8230017B9703}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasm.Client", "BlazorWasm.Client\BlazorWasm.Client.csproj", "{70F948E9-13F3-418B-AF9D-126300F70DCF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasm", "BlazorWasm\BlazorWasm.csproj", "{4ECC68F6-614E-40ED-AB9A-6043A10EDD84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,19 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{04921494-A450-4441-91BC-8230017B9703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04921494-A450-4441-91BC-8230017B9703}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04921494-A450-4441-91BC-8230017B9703}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04921494-A450-4441-91BC-8230017B9703}.Release|Any CPU.Build.0 = Release|Any CPU
-		{70F948E9-13F3-418B-AF9D-126300F70DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70F948E9-13F3-418B-AF9D-126300F70DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70F948E9-13F3-418B-AF9D-126300F70DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70F948E9-13F3-418B-AF9D-126300F70DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ECC68F6-614E-40ED-AB9A-6043A10EDD84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ECC68F6-614E-40ED-AB9A-6043A10EDD84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ECC68F6-614E-40ED-AB9A-6043A10EDD84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ECC68F6-614E-40ED-AB9A-6043A10EDD84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B6ECF6FC-77ED-4816-83A7-57B6DF2959A6}
+		SolutionGuid = {A44E1DDA-7BC1-4CB9-AA9D-D3E8290FD45D}
 	EndGlobalSection
 EndGlobal
